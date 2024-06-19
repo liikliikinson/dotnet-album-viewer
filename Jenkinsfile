@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Build') {
+        stage('NewBuild') {
             steps {
                 dir('C:/Jenkins/test.bat') {
                     
